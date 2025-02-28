@@ -52,7 +52,15 @@ orcid_username: 0000-0000-0000-0000
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Passionate about Linux, system management, and cloud technologies, with a keen interest in Cybersecurity and AI/ML. I enjoy solving problems and thrive in learning-driven environments.
+ I’ve always been passionate about **Linux**—there’s something incredibly satisfying about working with an operating system that’s so powerful and flexible. Whether it’s managing systems, writing scripts to automate tasks, or troubleshooting server issues, I love the challenge of making things run smoothly and efficiently. Over time, this interest has grown into a deeper curiosity about **system management** and how to build and maintain infrastructure that’s both reliable and scalable.
+
+ I’m also really drawn to **cloud technologies**. The way platforms like AWS, Azure, and Google Cloud can transform how we build and deploy applications is fascinating to me. I enjoy experimenting with tools like Kubernetes, Docker, and Terraform to see how they can simplify complex processes and make systems more resilient. The cloud feels like the future, and I’m excited to be part of that journey.
+
+ Another area that really captures my attention is **Cybersecurity**. In a world where threats are constantly evolving, I find it incredibly important—and interesting—to learn how to protect systems and data. Whether it’s understanding how hackers think, exploring ethical hacking, or implementing secure practices, I’m always eager to dive deeper into this field and contribute to making technology safer for everyone.
+
+ On top of that, I’m really intrigued by **AI and machine learning**. The idea that we can teach machines to learn from data and solve real-world problems is mind-blowing to me. I’ve been exploring Python, playing around with libraries like TensorFlow and PyTorch, and thinking about how AI can be applied to things like automation, predictive analytics, and even cybersecurity.
+
+ At the end of the day, what I love most is **solving problems**. Whether it’s debugging a tricky issue, optimizing a system, or building something new, I thrive on the challenge of figuring things out. I’m the kind of person who’s always curious, always learning, and always looking for ways to grow. I genuinely enjoy being in environments where I can push myself, learn new things, and contribute to meaningful projects.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
