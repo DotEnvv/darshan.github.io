@@ -1,0 +1,14 @@
+{
+  "build": {
+    "env": {
+      "JEKYLL_ENV": "production" // Set Jekyll environment to production
+    },
+    "command": "bundle install && bundle exec jekyll build" // Install dependencies and build the site
+  },
+  "routes": [
+    {
+      "src": "/(.*)", // Route all requests
+      "dest": "/_site/$1" // Serve files from the Jekyll output directory (_site)
+    }
+  ]
+}
