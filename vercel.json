@@ -1,14 +1,18 @@
 {
-  "build": {
-    "env": {
-      "JEKYLL_ENV": "production" 
+  "builds": [
+    {
+      "src": "Gemfile",
+      "use": "@vercel/ruby"
     },
-    "command": "bundle install && bundle exec jekyll build" 
-  },
+    {
+      "src": "**/*.html",
+      "use": "@vercel/static"
+    }
+  ],
   "routes": [
     {
-      "src": "/(.*)", 
-      "dest": "/_site/$1" 
+      "src": "/(.*)",
+      "dest": "/_site/$1"
     }
   ]
 }
