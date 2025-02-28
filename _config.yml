@@ -79,18 +79,6 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
   - title: Education
     layout: list
     content:
@@ -99,16 +87,19 @@ content:
         sub_title: BCA Cloud Computing & Cyber Security
         caption: 2023 - 2026
         quote: >
-          Short institution or course description (optional)
+          The Bachelor of Computer Applications (BCA) is a 3-year undergraduate program that focuses on computer applications and software development. It covers programming languages, database management, web development, software engineering, networking, and computer fundamentals. The course blends theoretical knowledge with practical skills, preparing students for careers in IT and software industries.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          To pursue a BCA (Bachelor of Computer Applications), candidates typically need to complete 10+2 or equivalent with Mathematics or Computer Science as a subject. Some institutions may require a minimum percentage (e.g., 50% aggregate) and conduct entrance exams or interviews for admission. The program is open to students from any stream (Science, Commerce, or Arts) with a basic understanding of mathematics and logical reasoning.
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+      **Operating Systems:** Proficient in Linux system administration and troubleshooting.  
+      **Cloud Computing:** Hands-on experience with cloud platforms (e.g., AWS, Azure, Google Cloud) and virtualization tools.  
+      **Cybersecurity:** Knowledge of network security, vulnerability assessment, and secure system design.  
+      **Programming:** Proficient in Python and SQL; familiar with C and Rust.  
+      **Databases:** Experience with database management and query optimization using SQL.  
+      **AI/ML:** Basic understanding of machine learning concepts and tools (e.g., TensorFlow, scikit-learn).  
+      **Tools:** Familiarity with Git, Docker, and shell scripting.  
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
