@@ -1,18 +1,11 @@
 {
   "builds": [
     {
-      "src": "Gemfile",
-      "use": "@vercel/ruby"
-    },
-    {
-      "src": "**/*.html",
+      "src": "index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/_site/$1"
-    }
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
