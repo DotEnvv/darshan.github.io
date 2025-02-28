@@ -50,7 +50,7 @@ orcid_username: x
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/IMG-20241127-WA0000.jpg
 about_content: | # this will include new lines to allow paragraphs
  I’m passionate about Linux and system management, with hands-on experience in optimizing and automating systems. I’m also deeply interested in cloud technologies like AWS and Azure, and enjoy working with tools like Kubernetes and Docker to build scalable solutions. Cybersecurity fascinates me, particularly ethical hacking and securing systems, while AI/ML excites me for its potential to solve complex problems through data and automation. I enjoy working in learning-driven environments, love tackling challenges, and am always eager to grow my skills and contribute to innovative projects.
 content:
