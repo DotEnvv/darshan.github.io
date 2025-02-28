@@ -1,11 +1,10 @@
 {
+  "rewrites": [{ "source": "/(.*)", "destination": "/$1" }],
+  "routes": [{ "src": "/(.*)", "dest": "/$1" }],
   "builds": [
     {
-      "src": "index.html",
+      "src": "_site/**/*",
       "use": "@vercel/static"
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
