@@ -14,7 +14,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0
-          bundler-cache: true  # Cache gems for faster builds
+          bundler-cache: true
       - name: Install Dependencies
         run: |
           gem install bundler
